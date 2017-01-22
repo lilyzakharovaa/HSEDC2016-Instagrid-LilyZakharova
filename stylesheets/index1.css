@@ -69,9 +69,6 @@ div.small {
   height: 50vh;
 }
 
-.big#pic10 {
-background-image: url(../images/10.jpg);
-}
 
 .big#pic1 {
 background-image: url(../images/1.jpg);
@@ -83,6 +80,10 @@ background-image: url(../images/4.jpg);
 
 .big#pic7 {
 background-image: url(../images/7.jpg);
+}
+
+.big#pic10 {
+background-image: url(../images/10.jpg);
 }
 
 .small#pic11 {

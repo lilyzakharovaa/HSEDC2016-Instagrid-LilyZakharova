@@ -70,50 +70,51 @@ div.small {
   height: 25vh;
 }
 
-.big#pic10 {
-background-image: url(../images/10.jpg);
-}
 
 .big#pic1 {
-background-image: url(../images/1.jpg);
+  background-image: url(../images/1.jpg);
 }
 
 .big#pic4 {
-background-image: url(../images/4.jpg);
+  background-image: url(../images/4.jpg);
 }
 
 .big#pic7 {
-background-image: url(../images/7.jpg);
+  background-image: url(../images/7.jpg);
 }
 
-.small#pic11 {
-background-image: url(../images/11.jpg);
-}
-
-.small#pic12 {
-background-image: url(../images/12.jpg);
+.big#pic10 {
+  background-image: url(../images/10.jpg);
 }
 
 .small#pic2 {
-background-image: url(../images/2.jpg);
+  background-image: url(../images/2.jpg);
 }
 
 .small#pic3 {
-background-image: url(../images/3.jpg);
+  background-image: url(../images/3.jpg);
 }
 
 .small#pic5 {
-background-image: url(../images/5.jpg);
+  background-image: url(../images/5.jpg);
 }
 
 .small#pic6 {
-background-image: url(../images/6.jpg);
+  background-image: url(../images/6.jpg);
 }
 
 .small#pic8 {
-background-image: url(../images/8.jpg);
+  background-image: url(../images/8.jpg);
 }
 
 .small#pic9 {
-background-image: url(../images/9.jpg);
+  background-image: url(../images/9.jpg);
+}
+
+.small#pic11 {
+  background-image: url(../images/11.jpg);
+}
+
+.small#pic12 {
+  background-image: url(../images/12.jpg);
 }
