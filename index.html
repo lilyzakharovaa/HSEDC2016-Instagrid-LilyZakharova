@@ -6,36 +6,65 @@
 
     <title>Instagram</title>
 
-    <meta name="description" content="Самостоятельное задание по веб-вёрстке для изучения сетки и закрепления знания по использованию флексбокса, позиционирования и прочих важных CSS свойств.">
     <meta name="keywords" content="instagram, lilyzakharovaa, inspiration, css, hse, design">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="InstagramLILY">
-    <meta property="og:description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
-
+    <meta property="og:title" content="instagrid">
 
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <script src="javascripts/jquery-3.1.1.js"></script>
     <script src="javascripts/gallery.js" charset="utf-8"></script>
-    <script src="javascripts/social-likes.min.js"></script>
   </head>
   <body>
 
-    <section class="gallery">
-        <nav class="galleryNav">
-          <div class="disabled" id="prev"></div>
-          <div id="next"></div>
-        </nav>
+    <div class="video">
+      <video src="file:///Users/admin/Desktop/sea2.webm" autoplay loop ="" poster="posterimage.jpg"></video>
+    </div>
 
-        <section class="galleryRail">
-          <figure><img src="https://scontent-arn2-1.cdninstagram.com/t51.2885-15/e35/14482780_1207643619299695_5763031222791962624_n.jpg?ig_cache_key=MTM1NTI3NzExNzQ3MDcxMzA4Ng%3D%3D.2" /></figure>
-          <figure><img src="https://scontent-arn2-1.cdninstagram.com/t51.2885-15/e35/14374377_1523507034343077_2373406263573741568_n.jpg?ig_cache_key=MTM1NDU2OTY2MjE5Mjc4OTY2Mg%3D%3D.2" /></figure>
-          <figure><img src="https://scontent-arn2-1.cdninstagram.com/t51.2885-15/e35/14374514_972280442894994_5027965591764336640_n.jpg?ig_cache_key=MTM0OTE5Njc5NjkwMzEyMTEyNg%3D%3D.2" /></figure>
-          <figure><img src="https://scontent-arn2-1.cdninstagram.com/t51.2885-15/e35/13714233_1594992420801559_757934801_n.jpg?ig_cache_key=MTMxNzQ5MzgxNjU5NjU5MDYyNg%3D%3D.2" /></figure>
-          <figure><img src="https://scontent-arn2-1.cdninstagram.com/t51.2885-15/e35/13643585_307565212931588_708111689_n.jpg?ig_cache_key=MTMxNTMzODA0Mzc1Mzg2ODQyMg%3D%3D.2" /></figure>
-          <figure><img src="https://scontent-arn2-1.cdninstagram.com/t51.2885-15/e35/13827406_1624985864478351_994063145_n.jpg?ig_cache_key=MTMxNTMzNzM3NzMzNzc3NzU3NA%3D%3D.2" /></figure>
+    <nav class="menubar">
+        <a href="#" class="about">about</a>
+        <a href="https://www.instagram.com/lilyzakharovaa/" class="name">lilyzakharovaa</a>
+        <a href="#" class="contact">contacts</a>
+      </nav>
+
+    <section class="gallery">
+      <nav class="galleryNav">
+        <div class="disabled" id="prev"><img src="images/nav1.svg" alt="" /></div>
+        <div id="next"><img src="images/nav2.svg" alt="" /></div>
+      </nav>
+
+      <section class="galleryRail">
+        <div class="big" id="pic10"></div>
+        <section class="small">
+          <div class="small" id="pic11"> </div>
+          <div class="small" id="pic12"> </div>
         </section>
+
+        <div class="big" id="pic4"></div>
+        <section class="small">
+          <div class="small" id="pic5"> </div>
+          <div class="small" id="pic6"> </div>
+        </section>
+
+        <div class="big" id="pic1"></div>
+        <section class="small">
+          <div class="small" id="pic2"> </div>
+          <div class="small" id="pic3"> </div>
+        </section>
+
+        <div class="big" id="pic7"></div>
+        <section class="small">
+          <div class="small" id="pic8"> </div>
+          <div class="small" id="pic9"> </div>
+        </section>
+      </section>
     </section>
+
+    <footer>
+      <a href="https://www.instagram.com/lilyzakharovaa">link to instagram</a>
+    </footer>
   </body>
 </html>
